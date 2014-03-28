@@ -27,11 +27,11 @@
     <description>
         Async Http Client implementation for the Jersey Client API.
     </description>
-    <url>http://github.com/AsyncHttpClient/jersey-ahc-client</url>
+    <url>https://github.com/davidgev/jersey-ahc-client</url>
     <scm>
-        <connection>scm:git:git@github.com:AsyncHttpClient/jersey-ahc-client.git</connection>
-        <url>scm:git:git@github.com:AsyncHttpClient/jersey-ahc-client.git</url>
-        <developerConnection>scm:git:git@github.com:AsyncHttpClient/jersey-ahc-client.git</developerConnection>
+        <connection>scm:git:git@github.com:davidgev/jersey-ahc-client.git</connection>
+        <url>scm:git:git@github.com:davidgev/jersey-ahc-client.git</url>
+        <developerConnection>scm:git:git@github.com:davidgev/jersey-ahc-client.git</developerConnection>
     </scm>
     <prerequisites>
         <maven>2.0.9</maven>
