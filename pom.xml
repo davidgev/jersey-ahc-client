@@ -27,12 +27,30 @@
     <description>
         Async Http Client implementation for the Jersey Client API.
     </description>
-    <url>https://github.com/davidgev/jersey-ahc-client</url>
+    <url>https://github.corp.eharmony.com/matching/jersey-ahc-client</url>
     <scm>
-        <connection>scm:git:git@github.com:davidgev/jersey-ahc-client.git</connection>
-        <url>scm:git:git@github.com:davidgev/jersey-ahc-client.git</url>
-        <developerConnection>scm:git:git@github.com:davidgev/jersey-ahc-client.git</developerConnection>
+        <connection>scm:git:git@github.corp.eharmony.com:matching/jersey-ahc-client.git</connection>
+        <url>scm:git:git@github.corp.eharmony.com:matching/jersey-ahc-client.git</url>
+        <developerConnection>scm:git:git@github.corp.eharmony.com:matching/jersey-ahc-client.git</developerConnection>
     </scm>
+
+    <distributionManagement>
+        <!-- use the following if you're not using a snapshot version. -->
+        <repository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>internal-releases</id>
+            <name>eHarmony Releases Repo</name>
+            <url>https://repository.corp.eharmony.com/nexus/content/repositories/internal-releases</url>
+        </repository>
+        <!-- use the following if you ARE using a snapshot version. -->
+        <snapshotRepository>
+            <uniqueVersion>false</uniqueVersion>
+            <id>internal-snapshots</id>
+            <name>eHarmony Snapshot Repo</name>
+            <url>https://repository.corp.eharmony.com/nexus/content/repositories/internal-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <prerequisites>
         <maven>2.0.9</maven>
     </prerequisites>
